@@ -1,0 +1,190 @@
+
+---
+
+# 🗓️ **12-Week Java + GenAI Training Plan (1 Hour/Week)**
+
+> 💡 **Audience:** Experienced Java 8 developers
+> 📍 **Format:** 1 hour/week (self-paced or instructor-led)
+> 🧭 **Goal:** Enable Java developers to understand and use GenAI APIs effectively within Java applications
+
+---
+
+## 🧩 **Training Overview**
+
+| Week | Theme                             | Objective                                           |
+| ---- | --------------------------------- | --------------------------------------------------- |
+| 1    | Java 9–17 Key Features            | Get up to speed with modern Java                    |
+| 2    | Java 18–21 Highlights             | Understand current capabilities                     |
+| 3    | GenAI Fundamentals                | Understand what GenAI is and where it fits          |
+| 4    | OpenAI API & GenAI Providers      | Explore available GenAI APIs                        |
+| 5    | Java HTTP Client (Post-Java 11)   | Learn making API calls from Java                    |
+| 6    | Calling OpenAI from Java          | Build your first GenAI client                       |
+| 7    | Prompt Engineering Basics         | Understand effective prompt crafting                |
+| 8    | Parsing GenAI Responses in Java   | Working with JSON, structured output                |
+| 9    | Using GenAI for Code Generation   | Use LLMs to write/test Java code                    |
+| 10   | Using GenAI in Web Applications   | Integrate GenAI in Spring Boot app                  |
+| 11   | GenAI Agents & Plugins (Concepts) | Explore agents, context retention, multi-turn chats |
+| 12   | Capstone Project                  | Build a mini GenAI-integrated Java application      |
+
+---
+
+## 🔍 **Weekly Breakdown**
+
+### ✅ **Week 1: Modern Java - Features from Java 9–17**
+
+* Modules (Java 9)
+* var keyword (Java 10)
+* Local-variable type inference
+* Text blocks (Java 13)
+* Switch expressions (Java 14)
+* Records (Java 16)
+* Pattern Matching for instanceof
+* Sealed classes (Java 17)
+
+### ✅ **Week 2: Java 18–21 Highlights**
+
+* UTF-8 by default (Java 18)
+* Simple web server (Java 18)
+* Pattern matching (switch)
+* Virtual Threads (Project Loom - Java 21)
+* Structured concurrency
+* Scoped values
+
+> **Outcome:** Learners are now updated with Java’s evolution and equipped to write modern, concise, and maintainable code.
+
+---
+
+### ✅ **Week 3: Introduction to Generative AI**
+
+* What is GenAI?
+* Types of GenAI (Text, Image, Code)
+* Foundation models (GPT, Claude, Gemini, etc.)
+* Use cases for Java devs: code completion, documentation, assistants
+
+---
+
+### ✅ **Week 4: GenAI APIs & Providers**
+
+* Overview of:
+
+  * OpenAI
+  * Cohere
+  * Google Gemini
+  * Hugging Face
+* Authentication & API key handling
+* Rate limits, costs, and ethical concerns
+
+---
+
+### ✅ **Week 5: Making API Calls with Java HTTP Client**
+
+* Java 11+ `HttpClient`
+* `HttpRequest` and `HttpResponse`
+* Handling GET/POST requests
+* Headers, JSON payloads
+
+> **Mini task:** Call a public JSON API and parse the result using `com.fasterxml.jackson`.
+
+---
+
+### ✅ **Week 6: Calling OpenAI from Java**
+
+* Set up OpenAI API key securely
+* Send a prompt to GPT-3.5/4
+* Receive and display the response
+* Error handling
+
+> **Mini project:** Java console app that answers user questions using OpenAI.
+
+---
+
+### ✅ **Week 7: Prompt Engineering Basics**
+
+* Prompt structures
+* Role-based prompting (`system`, `user`, `assistant`)
+* Output formatting (tables, JSON, markdown)
+* Injecting context (docs, code)
+
+> **Exercise:** Try 3 different prompt styles and compare outputs.
+
+---
+
+### ✅ **Week 8: Parsing GenAI Responses in Java**
+
+* JSON parsing with Jackson / Gson
+* Structuring responses with DTOs
+* Using `functions` / `tool calls` (if OpenAI API supports it)
+* Extracting code blocks, tables
+
+---
+
+### ✅ **Week 9: GenAI for Code Generation**
+
+* Prompts for generating Java code
+* Validating and executing AI-generated code
+* Using GenAI for test case generation
+* Pair programming tools (e.g., GitHub Copilot overview)
+
+> **Demo:** GenAI-assisted class and test generator
+
+---
+
+### ✅ **Week 10: Integrating GenAI into Web Apps**
+
+* Spring Boot + REST controller
+* Input prompt via UI → API call → Output on UI
+* Adding context from uploaded file or input
+
+> **Outcome:** Learners can add GenAI capabilities to real Java web apps
+
+---
+
+### ✅ **Week 11: Agents and Advanced GenAI Concepts**
+
+* What are Agents?
+* Multi-step reasoning
+* Function calling (tool use)
+* Vector embeddings & search (basic idea)
+* Use cases in customer support, documentation assistant
+
+---
+
+### ✅ **Week 12: Capstone Project**
+
+**Choose 1:**
+
+* Chatbot in Spring Boot using OpenAI
+* Java CLI app to summarize Java files using LLM
+* AI-based documentation generator for Java projects
+
+> **Deliverable:** Small but functional GenAI-integrated Java project with code and README
+
+---
+
+## 📚 **Supporting Material (Per Week)**
+
+* 15-min Video lecture or screencast
+* Hands-on code example
+* Prompt examples
+* Weekly quiz (5 questions)
+* Optional deeper reading/blogs
+
+---
+
+## 🛠️ **Tools & Libraries**
+
+* Java 17+ or Java 21 LTS
+* Jackson or Gson
+* IntelliJ / VSCode
+* Spring Boot (for web integration)
+* OpenAI SDK (optional) or raw REST API
+
+---
+
+## 📦 **Bonus Suggestions**
+
+* Use GitHub Copilot for writing Java code
+* Add plugin for IntelliJ to integrate GenAI
+* Explore LangChain4J (early-stage, experimental)
+
+---
